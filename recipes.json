@@ -1673,16 +1673,6 @@
     "image": "images/susene-maso-jerky-z-hovezi-rostene.jpg"
   },
   {
-    "id": "vareni-peceni-a-grilovani-v-parni-troube",
-    "name": "Vaření, pečení a grilování v parní troubě",
-    "category": "ostatni",
-    "emoji": "♨️",
-    "desc": "PDF příručka s tipy a postupy pro vaření, pečení a grilování v parní troubě.",
-    "ingredients": [],
-    "steps": [],
-    "source": "http://www.pecemevpare.cz/wp-content/uploads/vareni_peceni_grilovani_v_parni_troube.pdf"
-  },
-  {
     "id": "veprova-jatra-na-worcesteru-s-porkem",
     "name": "Vepřová játra na worcesteru s pórkem",
     "category": "ostatni",
