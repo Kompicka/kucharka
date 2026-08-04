@@ -1041,17 +1041,6 @@
     "image": "images/sunkofleky.jpg"
   },
   {
-    "id": "kapr-na-panvi-v-hrnci-i-pekaci",
-    "name": "Kapr na pánvi, v hrnci i pekáči",
-    "category": "ryby",
-    "emoji": "🐟",
-    "desc": "Sbírka třinácti nejen vánočních receptů z kapra – od smaženého přes rizoto až po kapra pečeného v soli.",
-    "ingredients": [],
-    "steps": [],
-    "source": "http://www.ireceptar.cz/vareni-a-recepty/maso-a-prilohy/recepty-nejen-vanocni-kapr-na-panvi-v-hrnci-i-pekaci/",
-    "image": "images/kapr-na-panvi-v-hrnci-i-pekaci.jpg"
-  },
-  {
     "id": "peceny-losos-na-ananasu",
     "name": "Pečený losos na ananasu",
     "category": "ryby",
