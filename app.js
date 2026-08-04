@@ -1,4 +1,5 @@
 const CATEGORY_LABELS = {
+  polevky: "Polévky",
   papinak: "Papiňák",
   trouba: "Do trouby",
   asie: "Asie",

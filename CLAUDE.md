@@ -10,12 +10,13 @@ Osobní kuchařka na GitHub Pages: https://kompicka.github.io/kucharka/ (repo Ko
 
 ## Pravidla kategorií (priorita shora dolů)
 
-1. Těstovinové jídlo → `testoviny` (i s mořskými plody — krevety na špagetách jsou pasta)
-2. Ryba jako hlavní surovina → `ryby` (bez ohledu na způsob přípravy)
-3. Asijská kuchyně → `asie`
-4. Tlakový hrnec (papiňák / Instant Pot) → `papinak`
-5. Pečené v troubě → `trouba`
-6. Ostatní → `ostatni`
+1. Polévka → `polevky` (i asijské — pho je polévka)
+2. Těstovinové jídlo → `testoviny` (i s mořskými plody — krevety na špagetách jsou pasta)
+3. Ryba jako hlavní surovina → `ryby` (bez ohledu na způsob přípravy)
+4. Asijská kuchyně → `asie`
+5. Tlakový hrnec (papiňák / Instant Pot) → `papinak`
+6. Pečené v troubě → `trouba`
+7. Ostatní → `ostatni`
 
 Když je zařazení nejednoznačné, zeptat se uživatele — nehádat.
 

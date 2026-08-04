@@ -729,7 +729,7 @@
   {
     "id": "vietnamska-hovezi-polevka-pho-pho-bo",
     "name": "Vietnamská hovězí polévka pho (phở bò)",
-    "category": "asie",
+    "category": "polevky",
     "emoji": "🍜",
     "desc": "Autentická vietnamská pho s vývarem táhnutým hodiny z morkových kostí, voňavým kořením, rýžovými nudlemi a tenkými plátky svíčkové.",
     "time": "4–5 hodin",
@@ -1122,7 +1122,7 @@
   {
     "id": "francouzska-cibulacka",
     "name": "Francouzská cibulačka",
-    "category": "ostatni",
+    "category": "polevky",
     "emoji": "🧅",
     "desc": "Sladce karamelizovaná cibule ve vývaru s vínem a zapečenými sýrovými toustíky.",
     "time": "80 min",
@@ -1154,7 +1154,7 @@
   {
     "id": "francouzska-cibulova-polevka-french-onion-soup",
     "name": "Francouzská cibulová polévka (French Onion Soup)",
-    "category": "ostatni",
+    "category": "polevky",
     "emoji": "🧀",
     "desc": "Dvě hodiny pomalu karamelizovaná cibule s červeným vínem, gruyèrem a křupavým toustem.",
     "time": "190 min",
@@ -1188,7 +1188,7 @@
   {
     "id": "gratinovana-francouzska-cibulacka",
     "name": "Gratinovaná francouzská cibulačka",
-    "category": "ostatni",
+    "category": "polevky",
     "emoji": "🥖",
     "desc": "Lahodná cibulová polévka s vínem a bylinkami, zapečená pod zlatavou sýrovou krustou.",
     "time": "75 min",
@@ -1254,7 +1254,7 @@
   {
     "id": "kulajda-od-zdenka-pohlreicha",
     "name": "Kulajda od Zdeňka Pohlreicha",
-    "category": "ostatni",
+    "category": "polevky",
     "emoji": "🥣",
     "desc": "Smetanová kulajda podle šéfa – houby, brambory, kopr a ztracené vejce.",
     "time": "50 min",
@@ -1287,7 +1287,7 @@
   {
     "id": "kulajda-se-ztracenym-vejcem-podle-sefa-prima-fresh",
     "name": "Kulajda se ztraceným vejcem podle šéfa (Prima Fresh)",
-    "category": "ostatni",
+    "category": "polevky",
     "emoji": "🥚",
     "desc": "Krémová kulajda s restovanými houbami, koprem a dokonalým ztraceným vejcem.",
     "time": "60 min",
@@ -1481,7 +1481,7 @@
   {
     "id": "prava-jihoceska-kulajda",
     "name": "Pravá jihočeská kulajda",
-    "category": "ostatni",
+    "category": "polevky",
     "emoji": "🌿",
     "desc": "Chlouba jihočeské kuchyně – houby, brambory, kysaná smetana, kopr a poloměkké vejce.",
     "time": "35 min",
@@ -1793,7 +1793,7 @@
   {
     "id": "zelnacka-s-klobasou",
     "name": "Zelňačka s klobásou",
-    "category": "ostatni",
+    "category": "polevky",
     "emoji": "🥬",
     "desc": "Hustá zimní polévka z kysaného zelí s opečenou klobásou a paprikovou jíškou.",
     "time": "45 min",
