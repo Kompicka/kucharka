@@ -1,0 +1,273 @@
+/* ===== Základ ===== */
+:root {
+  --bg: #faf6f0;
+  --surface: #ffffff;
+  --ink: #2d2420;
+  --ink-soft: #6b5d52;
+  --accent: #c0392b;
+  --accent-soft: #fdf0ee;
+  --border: #e8ddd2;
+  --shadow: 0 2px 12px rgba(45, 36, 32, 0.08);
+  --shadow-lift: 0 8px 28px rgba(45, 36, 32, 0.14);
+  --radius: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Hlavička ===== */
+.site-header {
+  background: linear-gradient(135deg, #2d2420 0%, #4a3428 100%);
+  color: #fff;
+  padding: 3rem 1.5rem 2.5rem;
+  text-align: center;
+}
+
+.site-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: 0.01em;
+}
+
+.site-subtitle {
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.05rem;
+}
+
+/* ===== Záložky kategorií ===== */
+.tabs {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0.9rem 1rem;
+  background: rgba(250, 246, 240, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+
+.tab {
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.5rem 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.tab:hover { border-color: var(--accent); color: var(--accent); }
+
+.tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* ===== Obsah ===== */
+.container {
+  flex: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+.search-wrap { margin-bottom: 1.5rem; text-align: center; }
+
+#search {
+  font-family: inherit;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 420px;
+  padding: 0.7rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  outline: none;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+#search:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+/* ===== Mřížka receptů ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lift);
+}
+
+.card-emoji {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1.6rem 0 0.6rem;
+  background: linear-gradient(180deg, var(--accent-soft) 0%, transparent 100%);
+}
+
+.card-body { padding: 0.5rem 1.25rem 1.25rem; flex: 1; display: flex; flex-direction: column; }
+
+.card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  margin-bottom: 0.35rem;
+}
+
+.card-desc {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  flex: 1;
+}
+
+.card-meta {
+  display: flex;
+  gap: 0.9rem;
+  margin-top: 0.9rem;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
+.card-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+}
+
+.empty {
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 1.1rem;
+  padding: 3rem 0;
+}
+
+/* ===== Detail receptu ===== */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(45, 36, 32, 0.55);
+  backdrop-filter: blur(3px);
+  z-index: 50;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2.5rem 1rem;
+  overflow-y: auto;
+}
+
+.modal {
+  position: relative;
+  background: var(--surface);
+  border-radius: var(--radius);
+  max-width: 640px;
+  width: 100%;
+  box-shadow: var(--shadow-lift);
+  animation: pop 0.22s ease;
+}
+
+@keyframes pop {
+  from { opacity: 0; transform: translateY(14px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.9rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: none;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.18s ease;
+}
+
+.modal-close:hover { background: var(--accent); color: #fff; }
+
+.modal-body { padding: 2.25rem 2.25rem 2rem; }
+
+.modal-emoji { font-size: 3.2rem; }
+
+.modal-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.9rem;
+  margin: 0.4rem 0 0.3rem;
+}
+
+.modal-desc { color: var(--ink-soft); margin-bottom: 1rem; }
+
+.modal-meta {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.25rem;
+}
+
+.modal h3 {
+  font-size: 1.05rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.modal ul, .modal ol { padding-left: 1.4rem; }
+.modal li { margin-bottom: 0.35rem; }
+.modal ol li { margin-bottom: 0.6rem; }
+
+/* ===== Patička ===== */
+.site-footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 480px) {
+  .modal-body { padding: 1.75rem 1.25rem 1.5rem; }
+  .site-header { padding: 2.25rem 1rem 1.75rem; }
+}

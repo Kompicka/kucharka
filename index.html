@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moje kuchařka</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍳</text></svg>">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <h1 class="site-title">🍳 Moje kuchařka</h1>
+    <p class="site-subtitle">Recepty, které mám rád</p>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab active" data-category="all">Vše</button>
+  <button class="tab" data-category="papinak">Papiňák</button>
+  <button class="tab" data-category="trouba">Do trouby</button>
+  <button class="tab" data-category="asie">Asie</button>
+  <button class="tab" data-category="testoviny">Těstoviny</button>
+  <button class="tab" data-category="ostatni">Ostatní</button>
+</nav>
+
+<main class="container">
+  <div class="search-wrap">
+    <input type="search" id="search" placeholder="Hledat recept…" autocomplete="off">
+  </div>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>Zatím tu žádný recept není. 🥄</p>
+</main>
+
+<!-- Recipe detail modal -->
+<div class="modal-overlay" id="modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose" aria-label="Zavřít">✕</button>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>Vařím s láskou &middot; <span id="year"></span></p>
+</footer>
+
+<script src="recipes.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
