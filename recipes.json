@@ -253,30 +253,6 @@
     "image": "images/papriky-plnene-quinoou-a-ratatouille.jpg"
   },
   {
-    "id": "pecene-kure-podle-kudlanky",
-    "name": "Pečené kuře podle Kudlanky",
-    "category": "trouba",
-    "emoji": "🍗",
-    "desc": "Jednoduché pečené kuře potřené sádlem, se solí a kmínem – šťavnaté maso a křupavá kůrčička.",
-    "servings": "4",
-    "ingredients": [
-      "1 celé kuře nebo 4 kuřecí čtvrtky",
-      "1 lžička soli",
-      "špetka kmínu",
-      "3 vrchovaté lžíce vepřového sádla"
-    ],
-    "steps": [
-      "Troubu předehřejeme na 220 °C. Kuře opláchneme studenou vodou (u celého i dutinu) a konce stehen svážeme provázkem, aby drželo tvar.",
-      "Kuře osušíme papírovou utěrkou, rukou potřeme dvěma lžícemi sádla a zbytek sádla vložíme do dutiny (u čtvrtek dáme na pekáč). Osolíme a okmínujeme zvenku i zevnitř.",
-      "Kuře vložíme do akorát velkého pekáče nejprve prsy dolů, podepřeme špejlemi nebo křidélky, aby se nepřichytilo. Čtvrtky klademe kůží nahoru.",
-      "Vložíme do trouby a teplotu snížíme na 190 °C. Po 15 minutách podlijeme hrnkem horké vody (ne přes maso).",
-      "Po dalších 15 minutách kuře obrátíme prsy nahoru a dále každých 10–15 minut přeléváme výpekem, celkem pečeme asi 40 minut.",
-      "Propečenost ověříme vpichem do nejsilnější části stehna – vytékající šťáva musí být čirá.",
-      "Vyjmeme z trouby, přikryjeme alobalem a necháme 5 minut odpočinout, teprve potom porcujeme."
-    ],
-    "source": "http://www.kudlanka.cz/index.php?option=com_content&task=view&id=1125&Itemid=34"
-  },
-  {
     "id": "veprove-koleno-varene-pecene-grilovane",
     "name": "Vepřové koleno vařené, pečené, grilované",
     "category": "trouba",
