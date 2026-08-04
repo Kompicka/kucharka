@@ -276,6 +276,46 @@ body {
   display: block;
 }
 
+.ing-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.servings-ctl {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.servings-ctl button {
+  width: 1.9rem;
+  height: 1.9rem;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--accent);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.servings-ctl button:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+#servLabel {
+  min-width: 4.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+#servLabel.scaled { color: var(--accent); }
+
 .modal-actions {
   margin-top: 1.5rem;
   display: flex;

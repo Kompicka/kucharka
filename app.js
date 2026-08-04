@@ -58,9 +58,85 @@ function render() {
   emptyMsg.hidden = visible.length > 0;
 }
 
+/* ===== Přepočet porcí ===== */
+
+const UNI_FRACTIONS = { "½": 0.5, "⅓": 1 / 3, "⅔": 2 / 3, "¼": 0.25, "¾": 0.75, "⅕": 0.2, "⅛": 0.125 };
+const NUM_RE = /(\d+\s+\d+\/\d+|\d+\/\d+|\d+(?:[.,]\d+)?|[½⅓⅔¼¾⅕⅛])/g;
+
+function parseNum(tok) {
+  if (UNI_FRACTIONS[tok] != null) return UNI_FRACTIONS[tok];
+  if (tok.includes("/")) {
+    const parts = tok.split(/\s+/);
+    let whole = 0, frac = parts.length === 2 ? parts[1] : parts[0];
+    if (parts.length === 2) whole = parseFloat(parts[0]);
+    const [a, b] = frac.split("/").map(Number);
+    return whole + a / b;
+  }
+  return parseFloat(tok.replace(",", "."));
+}
+
+function fmtNum(x) {
+  const fracs = [[0.25, "¼"], [1 / 3, "⅓"], [0.5, "½"], [2 / 3, "⅔"], [0.75, "¾"]];
+  const whole = Math.floor(x + 1e-9);
+  const rest = x - whole;
+  for (const [v, sym] of fracs) {
+    if (Math.abs(rest - v) < 0.02) return whole ? `${whole} ${sym}` : sym;
+  }
+  if (Math.abs(rest) < 0.02 || Math.abs(rest - 1) < 0.02) return String(Math.round(x));
+  return String(Math.round(x * 100) / 100).replace(".", ",");
+}
+
+function scaleText(text, factor) {
+  if (factor === 1) return text;
+  return text.replace(NUM_RE, (tok) => fmtNum(parseNum(tok) * factor));
+}
+
+function porceLabel(n, unitWord) {
+  if (/porc/i.test(unitWord)) {
+    if (n === 1) return "1 porce";
+    if (n >= 2 && n <= 4) return `${n} porce`;
+    return `${n} porcí`;
+  }
+  return `${n} ${unitWord}`.trim();
+}
+
+let servState = null; // { base, current, unitWord, multiplierMode }
+
+function initServings(r) {
+  const m = (r.servings ?? "").match(/\d+/);
+  if (m) {
+    const base = parseInt(m[0], 10);
+    const unitWord = r.servings.replace(/[\d\s]+/, "").trim() || "porcí";
+    servState = { base, current: base, unitWord, multiplierMode: false };
+  } else {
+    servState = { base: 1, current: 1, unitWord: "×", multiplierMode: true };
+  }
+}
+
+function servingsFactor() {
+  return servState.current / servState.base;
+}
+
+function servingsLabel() {
+  return servState.multiplierMode ? `${servState.current}×` : porceLabel(servState.current, servState.unitWord);
+}
+
+function renderIngredients(r) {
+  const f = servingsFactor();
+  return r.ingredients.map((i) => `<li>${scaleText(i, f)}</li>`).join("");
+}
+
+function updateServingsUI(r) {
+  document.getElementById("servLabel").textContent = servingsLabel();
+  document.getElementById("ingList").innerHTML = renderIngredients(r);
+  const label = document.getElementById("servLabel");
+  label.classList.toggle("scaled", servingsFactor() !== 1);
+}
+
 function openRecipe(id) {
   const r = RECIPES.find((x) => x.id === id);
   if (!r) return;
+  initServings(r);
 
   modalBody.innerHTML = `
     ${r.image ? `<img class="modal-img" src="${r.image}" alt="${r.name}">` : `<div class="modal-emoji">${r.emoji}</div>`}
@@ -73,7 +149,15 @@ function openRecipe(id) {
     </div>
     ${
       r.ingredients?.length
-        ? `<h3>Suroviny</h3><ul>${r.ingredients.map((i) => `<li>${i}</li>`).join("")}</ul>`
+        ? `<div class="ing-header">
+             <h3>Suroviny</h3>
+             <div class="servings-ctl">
+               <button id="servMinus" aria-label="Méně porcí">−</button>
+               <span id="servLabel">${servingsLabel()}</span>
+               <button id="servPlus" aria-label="Více porcí">+</button>
+             </div>
+           </div>
+           <ul id="ingList">${renderIngredients(r)}</ul>`
         : ""
     }
     ${
@@ -88,6 +172,17 @@ function openRecipe(id) {
   `;
   modal.hidden = false;
   document.body.style.overflow = "hidden";
+
+  const minus = document.getElementById("servMinus");
+  const plus = document.getElementById("servPlus");
+  if (minus && plus) {
+    minus.addEventListener("click", () => {
+      if (servState.current > 1) { servState.current--; updateServingsUI(r); }
+    });
+    plus.addEventListener("click", () => {
+      if (servState.current < 99) { servState.current++; updateServingsUI(r); }
+    });
+  }
 }
 
 function closeModal() {
