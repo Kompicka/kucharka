@@ -524,39 +524,6 @@
     "image": "images/kure-kung-pao.jpg"
   },
   {
-    "id": "kure-se-zeleninou-a-nudlemi-nikomi-udon",
-    "name": "Kuře se zeleninou a nudlemi (Nikomi udon)",
-    "category": "asie",
-    "emoji": "🍲",
-    "desc": "Lehká japonská nudlová polévka s kuřetem, pórkem, houbami šiitake a ztraceným vejcem – ideální využití vařeného kuřecího masa.",
-    "time": "50 minut",
-    "servings": "4 porce",
-    "ingredients": [
-      "300 g kuřecího masa",
-      "200 g rýžových nudlí",
-      "1 pórek",
-      "5 hlaviček hub šiitake (nebo žampionů či hlívy ústřičné)",
-      "4 vejce",
-      "chilli podle chuti",
-      "sůl",
-      "Zálivka: 4 šálky kuřecího vývaru",
-      "Zálivka: 1/3 šálku sójové omáčky",
-      "Zálivka: 1/3 šálku rýžového vína (lze nahradit bílým vínem)",
-      "Zálivka: 1 lžička cukru",
-      "Zálivka: sůl"
-    ],
-    "steps": [
-      "Kuřecí maso uvaříme v mírně osolené vodě doměkka, necháme zchladnout a nakrájíme na malé kousky. Na stejně velké kousky nakrájíme pórek a houby.",
-      "Kuřecí vývar smícháme se sójovou omáčkou, cukrem, solí a rýžovým vínem, vložíme maso, pórek a houby a vaříme, dokud zelenina nezměkne.",
-      "Mezitím uvaříme nudle tak, aby zůstaly pevné, scedíme je a rozdělíme do misek.",
-      "Masovou směs scedíme (vývar zachytíme) a rozdělíme do misek s nudlemi.",
-      "Vývar přivedeme k varu a postupně v něm připravíme 4 ztracená vejce, kterými pokrm poklademe.",
-      "Misky zalijeme horkým vývarem, posypeme chilli a ihned podáváme."
-    ],
-    "source": "http://www.labuznik.cz/recept/kure-se-zeleninou-a-nudlemi-inikomi-udoni/",
-    "image": "images/kure-se-zeleninou-a-nudlemi-nikomi-udon.jpg"
-  },
-  {
     "id": "nejjednodussi-kureci-adobo",
     "name": "Nejjednodušší kuřecí adobo",
     "category": "asie",
