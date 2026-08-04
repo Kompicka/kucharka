@@ -788,17 +788,6 @@
     "image": "images/7-receptu-na-testoviny-pro-vsechny-milovniky-pasty.jpg"
   },
   {
-    "id": "fettuccine-na-4-zpusoby",
-    "name": "Fettuccine na 4 způsoby",
-    "category": "testoviny",
-    "emoji": "🍜",
-    "desc": "Video od Tasty se čtyřmi krémovými variacemi fettuccine.",
-    "ingredients": [],
-    "steps": [],
-    "source": "https://www.facebook.com/buzzfeedtasty/videos/2656253487960617/",
-    "image": "images/fettuccine-na-4-zpusoby.jpg"
-  },
-  {
     "id": "italske-lasagne",
     "name": "Italské lasagne",
     "category": "testoviny",
