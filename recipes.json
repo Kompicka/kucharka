@@ -364,17 +364,6 @@
     "image": "images/zampiony-plnene-nivou.jpg"
   },
   {
-    "id": "chow-mein-na-4-zpusoby",
-    "name": "Chow mein na 4 způsoby",
-    "category": "asie",
-    "emoji": "🥡",
-    "desc": "Videokompilace čtyř variant smažených nudlí chow mein – s hovězím a brokolicí, se zeleninou, s krevetami v medovo-česnekové omáčce a s kuřetem teriyaki.",
-    "ingredients": [],
-    "steps": [],
-    "source": "https://tasty.co/compilation/chow-mein-4-ways",
-    "image": "images/chow-mein-na-4-zpusoby.jpg"
-  },
-  {
     "id": "dakjjim-jjimdak-dusene-kure-se-zeleninou-a-sklenenymi-nudlemi",
     "name": "Dakjjim (Jjimdak) – dušené kuře se zeleninou a skleněnými nudlemi",
     "category": "asie",
@@ -764,6 +753,17 @@
     ],
     "source": "http://www.hedvabnastezka.cz/klub-cestovatelu-praha/11072-jak-uvarit-vietnamskou-hovezi-polevku-pho/",
     "image": "images/vietnamska-hovezi-polevka-pho-pho-bo.jpg"
+  },
+  {
+    "id": "16-paradnich-receptu-na-oblibene-spagety",
+    "name": "16 parádních receptů na oblíbené špagety",
+    "category": "testoviny",
+    "emoji": "🍝",
+    "desc": "Šestnáct osvědčených receptů na špagety na jednom místě – od klasiky po originální variace.",
+    "ingredients": [],
+    "steps": [],
+    "source": "http://fresh.iprima.cz/16-paradnich-receptu-na-oblibene-spagety",
+    "image": "images/16-paradnich-receptu-na-oblibene-spagety.jpg"
   },
   {
     "id": "7-receptu-na-testoviny-pro-vsechny-milovniky-pasty",
