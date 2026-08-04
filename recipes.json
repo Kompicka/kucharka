@@ -134,16 +134,6 @@
     "image": "images/cuketovy-nakyp-aneb-sekana-z-cukety.jpg"
   },
   {
-    "id": "kure-podle-slavnych-sefkucharu",
-    "name": "Kuře podle slavných šéfkuchařů",
-    "category": "trouba",
-    "emoji": "🍗",
-    "desc": "Článek se čtyřmi recepty na pečené kuře – citronové od Jamieho Olivera, s chorizem od Ramsayho, španělské od Nigelly a s nádivkou od Pohlreicha.",
-    "ingredients": [],
-    "steps": [],
-    "source": "https://recepty.blesk.cz/clanek/vareni/3104/kure-podle-slavnych-sefkucharu-inspirujte-se-oliverem-nebo-pohlreichem.html?kapitola=4017"
-  },
-  {
     "id": "kure-z-jednoho-hrnce",
     "name": "Kuře z jednoho hrnce",
     "category": "trouba",
