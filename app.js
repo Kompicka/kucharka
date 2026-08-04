@@ -245,10 +245,14 @@ async function deleteRecipe(id) {
   if (btn) { btn.disabled = true; btn.textContent = "Mažu…"; }
 
   try {
-    // update recipes.json
+    // update recipes.json — always base the edit on the FRESH server copy,
+    // never on the browser's possibly stale in-memory list
     const cur = await ghRequest(DATA_FILE, {}, token);
     const meta = await cur.json();
-    const updated = RECIPES.filter((x) => x.id !== id);
+    const fresh = JSON.parse(new TextDecoder().decode(
+      Uint8Array.from(atob(meta.content.replace(/\n/g, "")), (c) => c.charCodeAt(0))
+    ));
+    const updated = fresh.filter((x) => x.id !== id);
     await ghRequest(DATA_FILE, {
       method: "PUT",
       body: JSON.stringify({

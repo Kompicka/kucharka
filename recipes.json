@@ -662,6 +662,32 @@
     "image": "images/kure-z-jednoho-hrnce.jpg"
   },
   {
+    "id": "kureci-spiz-s-uzenym",
+    "name": "Kuřecí špíz s uzeným",
+    "category": "trouba",
+    "emoji": "🍢",
+    "desc": "Jednoduchý a dobrý špíz z kuřecího a uzeného masa.",
+    "time": "45 min",
+    "ingredients": [
+      "200 g kuřecího masa",
+      "200 g uzeného masa",
+      "1 cibule",
+      "1 zelená paprika",
+      "1 lžička grilovacího koření",
+      "2 lžičky koření na gyros",
+      "1 lžička soli",
+      "špetka mletého černého pepře"
+    ],
+    "steps": [
+      "Kuřecí maso nakrájej na kousky, osol, opepři a posyp grilovacím kořením a kořením na gyros. Uzené maso nakrájej také na kousky, papriku na proužky a cibuli na měsíčky.",
+      "Na špejle napichuj střídavě kuřecí a uzené maso, cibuli a papriku. Hotové špízy ještě ze všech stran posyp kořením na gyros.",
+      "Špízy opeč ze všech stran (na pánvi, grilu nebo v troubě).",
+      "Podávej s chlebem nebo hranolky."
+    ],
+    "source": "https://www.vareni.cz/recepty/kureci-spiz-s-uzenym/",
+    "image": "images/kureci-spiz-s-uzenym.jpg"
+  },
+  {
     "id": "mini-quiche-s-cuketovou-krustou-4-zpusoby",
     "name": "Mini quiche s cuketovou krustou – 4 způsoby",
     "category": "trouba",
@@ -1058,6 +1084,41 @@
     ],
     "source": "http://recepty.vareni.cz/opekane-cinske-ryzove-nudle/",
     "image": "images/opekane-cinske-ryzove-nudle.jpg"
+  },
+  {
+    "id": "pad-thai-s-kuretem-nebo-tofu",
+    "name": "Pad thai s kuřetem nebo tofu",
+    "category": "asie",
+    "emoji": "🍜",
+    "desc": "Jedno z nejoblíbenějších thajských jídel, které se z pouličních stánků rozšířilo do celého světa.",
+    "time": "30 min",
+    "servings": "2 porce",
+    "ingredients": [
+      "150 g plochých rýžových nudlí",
+      "hrst nesolených arašídů",
+      "2 vejce",
+      "1 kuřecí prso (nebo kostka tofu / 2 hrsti krevet)",
+      "4 lžíce rostlinného oleje",
+      "1 červená chilli paprička (nebo ¼ lžičky chilli vloček)",
+      "3 jarní cibulky",
+      "2 stroužky česneku",
+      "hrst čerstvého koriandru",
+      "limetka na podávání",
+      "špetka soli",
+      "Omáčka: 4 lžíce třtinového cukru (kokosového či palmového)",
+      "1 lžíce tamarindové pasty (nebo limetkové šťávy / rýžového octa)",
+      "3 lžíce rybí omáčky",
+      "3 lžíce sójové omáčky"
+    ],
+    "steps": [
+      "Nudle namoč na 30–60 minut do studené vody. Arašídy opraž nasucho ve woku do vůně, nech zchladnout a nasekej najemno.",
+      "Vejce rozšlehej se špetkou soli. Maso nebo tofu nakrájej na menší kousky. Chilli, jarní cibulku a oloupaný česnek nakrájej najemno. Suroviny na omáčku rozmíchej dohladka.",
+      "Ve woku rozpal olej na nejvyšší teplotu. Orestuj kuře nebo tofu, až zbělá a začne se opékat (krevety asi minutu, do růžova). Přidej chilli, cibulku a česnek a restuj 30 sekund dozlatova.",
+      "Odsuň vše stranou, přilij vejce a nech je částečně zatáhnout. Přidej okapané nudle a restuj další minutu.",
+      "Zalij omáčkou a prohřívej 30 sekund. Posyp arašídy, rozděl na talíře a podávej posypané koriandrem s klínkem limetky."
+    ],
+    "source": "https://fresh.iprima.cz/recepty/pad-thai-s-kuretem-nebo-tofu-thajske-nudle-ktere-nejde-nemilovat",
+    "image": "images/pad-thai-s-kuretem-nebo-tofu.jpg"
   },
   {
     "id": "sezamove-kure-jako-z-bistra",
