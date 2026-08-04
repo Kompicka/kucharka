@@ -260,9 +260,31 @@ body {
 .modal li { margin-bottom: 0.35rem; }
 .modal ol li { margin-bottom: 0.6rem; }
 
-.modal-source { margin-top: 1.5rem; }
+.card-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
 
-.modal-source a {
+.modal-img {
+  width: calc(100% + 4.5rem);
+  margin: -2.25rem -2.25rem 1.25rem;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius) var(--radius) 0 0;
+  display: block;
+}
+
+.modal-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn-source {
   display: inline-block;
   padding: 0.5rem 1.2rem;
   border-radius: 999px;
@@ -274,7 +296,38 @@ body {
   transition: background 0.18s ease, color 0.18s ease;
 }
 
-.modal-source a:hover { background: var(--accent); color: #fff; }
+.btn-source:hover { background: var(--accent); color: #fff; }
+
+.btn-delete {
+  font-family: inherit;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.btn-delete:hover { border-color: #c0392b; background: #c0392b; color: #fff; }
+.btn-delete:disabled { opacity: 0.5; cursor: wait; }
+
+.toast {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--ink);
+  color: #fff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  box-shadow: var(--shadow-lift);
+  z-index: 100;
+  animation: pop 0.22s ease;
+}
 
 /* ===== Patička ===== */
 .site-footer {
