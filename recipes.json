@@ -1251,32 +1251,6 @@
     "image": "images/gratinovana-francouzska-cibulacka.jpg"
   },
   {
-    "id": "karlovarsky-knedlik",
-    "name": "Karlovarský knedlík",
-    "category": "ostatni",
-    "emoji": "🥖",
-    "desc": "Jemný knedlík z pečiva vařený v ubrousku — skvělá příloha k pečeným masům i drůbeži.",
-    "time": "45 min",
-    "servings": "3 porce",
-    "ingredients": [
-      "250 g bílé pečivo",
-      "250 ml mléko",
-      "50 g hrubá mouka",
-      "30 g máslo",
-      "2 ks vejce",
-      "sůl"
-    ],
-    "steps": [
-      "Žloutky oddělíme od bílků a z bílků ušleháme tuhý sníh.",
-      "Máslo rozpustíme, zalijeme mlékem a vmícháme žloutky.",
-      "Den staré rohlíky nebo housky nakrájíme na kostičky, vložíme do mísy, zalijeme prochladlým mlékem, osolíme a necháme vsáknout. Zasypeme moukou a propracujeme. Nakonec vmícháme sníh a vytvarujeme šišku.",
-      "Plátěný ubrousek namočíme, vyždímáme, položíme na něj šišku těsta a zabalíme. Konce zavážeme nití těsně u knedlíku a ještě jednou o 1 cm dále. Knedlík vložíme do vroucí osolené vody a mírně povaříme 5 minut, poté odstraníme vnitřní nitě, knedlík obrátíme a pomalu vaříme ještě 20 minut.",
-      "Hotový knedlík vyjmeme z ubrousku a tenkým nožem nakrájíme na plátky."
-    ],
-    "source": "http://recepty.vareni.cz/karlovarsky-knedlik/",
-    "image": "images/karlovarsky-knedlik.jpg"
-  },
-  {
     "id": "koprova-omacka-s-vajickem",
     "name": "Koprová omáčka s vajíčkem",
     "category": "ostatni",
