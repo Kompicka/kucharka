@@ -24,6 +24,10 @@ Když je zařazení nejednoznačné, zeptat se uživatele — nehádat.
 
 Každý recept má mít fotku. Když ji zdrojová stránka nemá, najít ilustrační fotku na internetu (preferovat Wikipedii/Wikimedia — volné licence), zmenšit a uložit do `images/`.
 
+## Odkazy od uživatele
+
+Když uživatel pošle odkaz na recept, vždy ho rovnou stáhni (fetch) a zpracuj — bez ptaní. WebFetch je povolen pro všechny domény v `.claude/settings.local.json`.
+
 ## Workflow
 
 Po každé změně: commit + push (Pages se přegeneruje samo, ~1 min). Před pushem `git pull --rebase` — uživatel maže recepty přímo z webu, takže remote může být napřed.
