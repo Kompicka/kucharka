@@ -1430,17 +1430,6 @@
     "image": "images/nemecky-bramborovy-salat-s-cibuli.jpg"
   },
   {
-    "id": "palacinkovy-souboj-palacinky-podle-televizniho-taty",
-    "name": "Palačinkový souboj – palačinky podle televizního táty",
-    "category": "ostatni",
-    "emoji": "🥞",
-    "desc": "Videočlánek iDNES o přípravě jednoduchých palačinek z vajec, mléka, hladké mouky a špetky soli.",
-    "ingredients": [],
-    "steps": [],
-    "source": "http://hobby.idnes.cz/palacinka-recept-0k2-/hobby-domov.aspx?c=A121108_154342_hobby-domov_bma",
-    "image": "images/palacinkovy-souboj-palacinky-podle-televizniho-taty.jpg"
-  },
-  {
     "id": "prava-jihoceska-kulajda",
     "name": "Pravá jihočeská kulajda",
     "category": "polevky",
