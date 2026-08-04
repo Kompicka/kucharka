@@ -723,7 +723,8 @@
     "desc": "Videorecept na thajskou smaženou rýži s kuřetem, chilli a voňavou thajskou bazalkou.",
     "ingredients": [],
     "steps": [],
-    "source": "http://www.youtube.com/watch?v=dl4NvSA3hRI"
+    "source": "http://www.youtube.com/watch?v=dl4NvSA3hRI",
+    "image": "images/thajska-smazena-ryze-s-kuretem-a-bazalkou.jpg"
   },
   {
     "id": "vietnamska-hovezi-polevka-pho-pho-bo",
@@ -794,7 +795,8 @@
     "desc": "Video od Tasty se čtyřmi krémovými variacemi fettuccine.",
     "ingredients": [],
     "steps": [],
-    "source": "https://www.facebook.com/buzzfeedtasty/videos/2656253487960617/"
+    "source": "https://www.facebook.com/buzzfeedtasty/videos/2656253487960617/",
+    "image": "images/fettuccine-na-4-zpusoby.jpg"
   },
   {
     "id": "italske-lasagne",
