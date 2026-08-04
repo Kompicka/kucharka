@@ -258,6 +258,22 @@ body {
 .modal li { margin-bottom: 0.35rem; }
 .modal ol li { margin-bottom: 0.6rem; }
 
+.modal-source { margin-top: 1.5rem; }
+
+.modal-source a {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+.modal-source a:hover { background: var(--accent); color: #fff; }
+
 /* ===== Patička ===== */
 .site-footer {
   text-align: center;

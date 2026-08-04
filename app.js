@@ -3,6 +3,7 @@ const CATEGORY_LABELS = {
   trouba: "Do trouby",
   asie: "Asie",
   testoviny: "Těstoviny",
+  ryby: "Ryby",
   ostatni: "Ostatní",
 };
 
@@ -59,10 +60,21 @@ function openRecipe(id) {
       ${r.time ? `<span>⏱ ${r.time}</span>` : ""}
       ${r.servings ? `<span>🍽 ${r.servings}</span>` : ""}
     </div>
-    <h3>Suroviny</h3>
-    <ul>${r.ingredients.map((i) => `<li>${i}</li>`).join("")}</ul>
-    <h3>Postup</h3>
-    <ol>${r.steps.map((s) => `<li>${s}</li>`).join("")}</ol>
+    ${
+      r.ingredients?.length
+        ? `<h3>Suroviny</h3><ul>${r.ingredients.map((i) => `<li>${i}</li>`).join("")}</ul>`
+        : ""
+    }
+    ${
+      r.steps?.length
+        ? `<h3>Postup</h3><ol>${r.steps.map((s) => `<li>${s}</li>`).join("")}</ol>`
+        : ""
+    }
+    ${
+      r.source
+        ? `<p class="modal-source"><a href="${r.source}" target="_blank" rel="noopener">Původní recept ↗</a></p>`
+        : ""
+    }
   `;
   modal.hidden = false;
   document.body.style.overflow = "hidden";
