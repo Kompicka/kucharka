@@ -1530,35 +1530,6 @@
     "image": "images/smazena-kureci-prsa-v-corn-flakes-s-kasi-a-okurkovym-zele.jpg"
   },
   {
-    "id": "susene-maso-jerky-z-hovezi-rostene",
-    "name": "Sušené maso (jerky z hovězí roštěné)",
-    "category": "ostatni",
-    "emoji": "🥩",
-    "desc": "Domácí jerky – marinované proužky hovězího pomalu usušené v troubě.",
-    "time": "60 min + 10 h marinování + 9–12 h sušení",
-    "servings": "20",
-    "ingredients": [
-      "1,5 kg hovězí roštěné",
-      "3 lžíce soli",
-      "5 lžic worcesterové omáčky",
-      "12 lžic sójové omáčky",
-      "1 lžíce grilovacího koření",
-      "2 lžíce celého pepře",
-      "1 lžíce sušeného česneku"
-    ],
-    "steps": [
-      "Pečlivě umyjte ruce, pracovní desku i nástroje horkou vodou. Maso odblaňte a přelijte ze všech stran horkou vodou.",
-      "Maso nakrájejte na 2–3 mm silné proužky, asi palec široké. Suché koření se solí promíchejte a okořeňte plátky z obou stran.",
-      "Maso v míse zalijte směsí worcesterové a sójové omáčky, důkladně promíchejte, zatižte a marinujte cca 10 hodin, 1–2x promíchejte.",
-      "Proužky napíchejte na špejle (cca 8 ks na špejli) a rozložte na mřížku do trouby tak, aby se nedotýkaly.",
-      "Sušte v elektrické troubě s ventilátorem: nejprve minimálně 75 °C po dobu cca 40 minut (kvůli likvidaci bakterií, např. salmonely).",
-      "Poté snižte teplotu na 55 °C a sušte dalších 9–12 hodin, až se maso začne lámat.",
-      "Skladujte v suchu a chladu, vydrží minimálně měsíc."
-    ],
-    "source": "http://www.recepty.cz/recept/susene-maso-11594",
-    "image": "images/susene-maso-jerky-z-hovezi-rostene.jpg"
-  },
-  {
     "id": "veprova-jatra-na-worcesteru-s-porkem",
     "name": "Vepřová játra na worcesteru s pórkem",
     "category": "ostatni",
