@@ -1,5 +1,273 @@
 [
   {
+    "id": "francouzska-cibulacka",
+    "name": "Francouzská cibulačka",
+    "category": "polevky",
+    "emoji": "🧅",
+    "desc": "Sladce karamelizovaná cibule ve vývaru s vínem a zapečenými sýrovými toustíky.",
+    "time": "80 min",
+    "servings": "4",
+    "ingredients": [
+      "600 g cibule",
+      "2 lžíce oleje",
+      "1 vrchovatá lžíce másla",
+      "2 lžičky cukru",
+      "1 l domácího kuřecího nebo hovězího vývaru",
+      "150 ml suchého bílého vína",
+      "1 lžíce hladké mouky",
+      "cca 1 lžička soli",
+      "4 krajíčky světlé bagety nebo veky (případně 2 rohlíky)",
+      "50 g strouhaného sýra"
+    ],
+    "steps": [
+      "Cibuli oloupejte, překrojte napůl a nakrájejte na půl centimetru silné plátky.",
+      "Ve větším hrnci rozehřejte máslo s olejem, vsypte polovinu cibule a intenzivně ji opékejte, až místy zezlátne. Když hrozí připálení, podlijte pár lžícemi vody, rozpusťte přípečky a nechte vodu odpařit; opakujte 2–3x, až má cibule rovnoměrnou zlatou barvu.",
+      "Přidejte zbylou cibuli a za stálého míchání ji nechte změknout. Nakonec přidejte cukr a minutu míchejte.",
+      "Cibuli poprašte moukou, krátce promíchejte, přilijte třetinu vývaru a důkladně zamíchejte.",
+      "Přilijte zbytek vývaru a víno, osolte, přiveďte k varu a pod pokličkou zvolna vařte 20 minut, občas promíchejte.",
+      "Mezitím rozehřejte gril nebo troubu na 200 °C. Krajíčky bagety posypte sýrem a zapečte cca 5 minut, až se sýr rozteče.",
+      "Polévku dochuťte, rozdělte do talířů a ozdobte zapečenými toustíky se sýrem."
+    ],
+    "source": "https://www.kucharkaprodceru.cz/francouzska-cibulacka/",
+    "image": "images/francouzska-cibulacka.jpg"
+  },
+  {
+    "id": "francouzska-cibulova-polevka-french-onion-soup",
+    "name": "Francouzská cibulová polévka (French Onion Soup)",
+    "category": "polevky",
+    "emoji": "🧀",
+    "desc": "Dvě hodiny pomalu karamelizovaná cibule s červeným vínem, gruyèrem a křupavým toustem.",
+    "time": "190 min",
+    "servings": "6",
+    "ingredients": [
+      "115 g nesoleného másla",
+      "4 velké sladké cibule, nakrájené na tenké plátky",
+      "4 stroužky česneku, na tenké plátky",
+      "4 sušené bobkové listy",
+      "8 snítek čerstvého tymiánu",
+      "1 lžička soli",
+      "čerstvě mletý černý pepř",
+      "240 ml suchého červeného vína (např. chianti)",
+      "3 vrchovaté lžíce hladké mouky",
+      "2 l hovězího vývaru",
+      "2 lžíce balzamikového octa",
+      "6 plátků francouzské bagety",
+      "6 lžic olivového oleje",
+      "115 g nastrouhaného sýra gruyère"
+    ],
+    "steps": [
+      "Ve velkém hrnci se silným dnem rozpusťte na mírném ohni máslo. Přidejte cibuli a česnek a promíchejte, aby se obalily máslem. Přidejte bobkový list, tymián, sůl a pepř. Stáhněte plamen na minimum a nechte cibuli asi 2 hodiny karamelizovat; každých zhruba 5 minut promíchejte, aby se nepřipálila. Hotová je, když má středně zlatohnědou barvu.",
+      "Přilijte víno, promíchejte a vařte dalších 20–30 minut za občasného míchání, dokud se tekutina nezredukuje asi o tři čtvrtiny. Vyjměte bobkový list a tymián.",
+      "Směs zaprašte moukou, promíchejte a za občasného míchání vařte 5 minut, aby se ztratila syrová chuť mouky. Postupně přilévejte vývar a míchejte, aby nevznikly hrudky. Přiveďte k mírnému varu a vařte 10 minut. Vmíchejte balzamikový ocet, ochutnejte a dochuťte.",
+      "Zapněte gril v troubě na nejnižší stupeň. Plátky bagety potřete z obou stran olivovým olejem, rozložte na plech a opečte v troubě, v polovině otočte.",
+      "Plech vyndejte a gril přepněte na maximum. Na plátky chleba rovnoměrně rozdělte sýr a zapečte dozlatova. Podávejte s polévkou – toust položte navrch, nebo dejte zvlášť, aby zůstal křupavý."
+    ],
+    "source": "https://thissillygirlskitchen.com/french-onion-soup/",
+    "image": "images/francouzska-cibulova-polevka-french-onion-soup.jpg"
+  },
+  {
+    "id": "gratinovana-francouzska-cibulacka",
+    "name": "Gratinovaná francouzská cibulačka",
+    "category": "polevky",
+    "emoji": "🥖",
+    "desc": "Lahodná cibulová polévka s vínem a bylinkami, zapečená pod zlatavou sýrovou krustou.",
+    "time": "75 min",
+    "servings": "6",
+    "ingredients": [
+      "sůl",
+      "2 l vývar",
+      "30 g máslo",
+      "6 ks cibule",
+      "1 lžička rozmarýn",
+      "ementál",
+      "1 lžička petržel",
+      "1 ks bageta",
+      "4 lístky bobkový list",
+      "2 - 3 lžíce hladká mouka",
+      "1 lžíce drcený tymián",
+      "2 - 3 dl bílé suché víno",
+      "mletý černý pepř",
+      "sýr comté"
+    ],
+    "steps": [
+      "Cibule nakrájíme třeba na kroužky a necháme na osoleném másle restovat v hlubším velkém hrnci za občasného míchání, dokud nebudou chytat zlatavou barvu.",
+      "Přidáme 2 - 3 dl suchého bílého vína, které necháme téměř vyvařit (asi 15 - 20 minut) a občas nahlédneme.",
+      "Poprášíme moukou, tím se nám vytvoří jíška, přidáme vývar a zamícháme. Vývar může být jak hovězí, tak drůbeží. Do hrnce vložíme svazek bylinek (rozmarýn, tymián, petržel) svázaných k sobě, ovšem pokud nemáme čerstvé, přidáme klasicky sušený drhnutý tymián a rozmarýn.",
+      "Přivedeme k varu, poté ztlumíme a vše necháme na mírném plameni probublávat asi 20 - 30 minut spolu s bobkovým listem, aby se nám chutě a aroma bylinek krásně propojilo. Ve finále polévku dosolíme a dopepříme.",
+      "Mezitím bagetu nakrájíme kolečka a osmahneme na másle dozlatova.",
+      "Jakmile je polévka hotová, nalijeme ji do misek, přidáme pár kusů opečené bagety a posypeme nastrouhaným sýrem (nejlépe comté nebo ementál).",
+      "Misky s francouzskou cibulačkou vložíme do trouby pod gril rozpálený na 200 °C, dokud se nevytvoří ze sýra zlatavá krusta. Jakmile se tak stane, můžeme si pogratulovat, máme hotovo a podáváme. Gratinovanou francouzskou cibulačku ihned podáváme."
+    ],
+    "source": "http://recepty.vareni.cz/gratinovana-francouzska-cibulacka/",
+    "image": "images/gratinovana-francouzska-cibulacka.jpg"
+  },
+  {
+    "id": "kulajda-od-zdenka-pohlreicha",
+    "name": "Kulajda od Zdeňka Pohlreicha",
+    "category": "polevky",
+    "emoji": "🥣",
+    "desc": "Smetanová kulajda podle šéfa – houby, brambory, kopr a ztracené vejce.",
+    "time": "50 min",
+    "servings": "4",
+    "ingredients": [
+      "100 g sušených hub",
+      "1 l hovězího vývaru",
+      "50 g másla",
+      "100 g hladké mouky",
+      "150 g brambor",
+      "4 vejce",
+      "50 g kopru",
+      "2 lžíce octa",
+      "300 ml mléka",
+      "100 ml smetany",
+      "sůl",
+      "pepř"
+    ],
+    "steps": [
+      "Z rozpuštěného másla a mouky připravte světlou jíšku.",
+      "Jíšku zalijte vývarem, osolte, opepřete a přiveďte k varu.",
+      "Přidejte nakrájené brambory a houby a vařte asi 40 minut.",
+      "Vlijte mléko se smetanou a polévku dochuťte.",
+      "V kastrolu s vroucí vodou a octem připravte ztracená vejce – vejce vyklepněte do naběračky a pomalu vpusťte do vody, vařte maximálně 2–3 minuty.",
+      "Na talíř položte ztracené vejce, zalijte polévkou s koprem a ihned podávejte."
+    ],
+    "source": "https://www.igurmet.cz/recepty/polevky/smetanove/kulajda-5351/",
+    "image": "images/kulajda-od-zdenka-pohlreicha.jpg"
+  },
+  {
+    "id": "kulajda-se-ztracenym-vejcem-podle-sefa-prima-fresh",
+    "name": "Kulajda se ztraceným vejcem podle šéfa (Prima Fresh)",
+    "category": "polevky",
+    "emoji": "🥚",
+    "desc": "Krémová kulajda s restovanými houbami, koprem a dokonalým ztraceným vejcem.",
+    "time": "60 min",
+    "servings": "4",
+    "ingredients": [
+      "1 l kuřecího vývaru",
+      "200 g hub (čerstvá nebo sušená lesní směs)",
+      "3 brambory",
+      "250 ml smetany ke šlehání",
+      "3 lžíce hladké mouky",
+      "3 lžíce másla",
+      "cca 4 lžíce octa do polévky + 200 ml na vaření vajec",
+      "menší svazek kopru",
+      "1 vejce na osobu",
+      "sůl a pepř",
+      "trocha cukru (dle potřeby)"
+    ],
+    "steps": [
+      "V rendlíku rozpusťte máslo, přisypte mouku a orestujte jíšku. Zalijte vývarem, přidejte drobně nakrájené brambory, osolte, opepřete a rozmíchejte dohladka.",
+      "Houby orestujte na másle dozlatova a vlijte do polévky. Vařte, dokud houby i brambory nezměknou.",
+      "Přidejte smetanu a ocet, znovu přiveďte k varu, případně dochuťte trochou cukru. Odstavte a vmíchejte nasekaný kopr.",
+      "V menším rendlíku přiveďte vodu s octem k varu (nesolte). Vejce rozklepněte jednotlivě do misek, ve vodě vytvořte vír a do jeho středu vejce vlijte – bílek obalí žloutek. Jakmile bílek ztuhne, odstavte a nechte 2–3 minuty dojít.",
+      "Polévku podávejte se ztraceným vejcem."
+    ],
+    "source": "http://fresh.iprima.cz/recepty/video-kulajda-se-ztracenym-vejcem-podle-sefa",
+    "image": "images/kulajda-se-ztracenym-vejcem-podle-sefa-prima-fresh.jpg"
+  },
+  {
+    "id": "prava-jihoceska-kulajda",
+    "name": "Pravá jihočeská kulajda",
+    "category": "polevky",
+    "emoji": "🌿",
+    "desc": "Chlouba jihočeské kuchyně – houby, brambory, kysaná smetana, kopr a poloměkké vejce.",
+    "time": "35 min",
+    "servings": "2",
+    "ingredients": [
+      "4 ks vejce",
+      "2 lžíce ocet",
+      "6 ks brambory",
+      "kmín",
+      "2 ks bobkový list",
+      "nové koření",
+      "1 hrnek kysaná smetana",
+      "hladká mouka",
+      "1 hrst houby čerstvé",
+      "kopr sekaný"
+    ],
+    "steps": [
+      "Houby očistíme a nakrájíme je na větší kousky.",
+      "Syrové oloupané brambory nakrájíme na kostičky a s houbami povaříme v osolené vodě, do které jsme přidali koření - kmín, nové koření, pepř, bobkový list.",
+      "Když jsou brambory měkké, přidáme smetanu s rozkvedlanou moukou, promícháme a krátce povaříme. Podle chuti kulajdu osolíme, okyselíme octem a přidáme nasekaný kopr.",
+      "Rozklepneme čerstvá vejce a zlehka je upustíme do polévky. Tři minuty mírným varem povaříme a dalších 5 minut necháme vejce dojít mimo tepelný zdroj. Žloutky vajec musí být při podávání pravé jihočeské kulajdy poloměkké.",
+      "Pravou jihočeskou kulajdu podáváme horkou a nejlépe chutná s čerstvě upečeným domácím chlebem."
+    ],
+    "source": "http://recepty.vareni.cz/prava-jihoceska-kulajda/",
+    "image": "images/prava-jihoceska-kulajda.jpg"
+  },
+  {
+    "id": "vietnamska-hovezi-polevka-pho-pho-bo",
+    "name": "Vietnamská hovězí polévka pho (phở bò)",
+    "category": "polevky",
+    "emoji": "🍜",
+    "desc": "Autentická vietnamská pho s vývarem táhnutým hodiny z morkových kostí, voňavým kořením, rýžovými nudlemi a tenkými plátky svíčkové.",
+    "time": "4–5 hodin",
+    "servings": "cca 5 l vývaru",
+    "ingredients": [
+      "3–4 kg hovězích morkových kostí (+ případně 500 g ocasních kostí s masem)",
+      "alespoň 500 g hovězího zadního masa na vývar",
+      "400 g hovězí svíčkové (na variantu phở bò tái)",
+      "3–4 celé cibule",
+      "250 g čerstvého zázvoru",
+      "několik jarních cibulek",
+      "1–2 celé sušené kardamomy (thảo quả)",
+      "5–7 hvězdiček badyánu",
+      "12–20 cm celé skořice",
+      "10–15 hřebíčků",
+      "hnědý cukr ve větších krystalech, sůl, rybí omáčka",
+      "ploché rýžové nudle (bánh phở)",
+      "čerstvé bylinky: vietnamská bazalka, perilla, máčka (ngò gai)",
+      "k podávání: limetka, čerstvé chilli, chilli omáčka, naložený česnek",
+      "7 l studené vody"
+    ],
+    "steps": [
+      "Kosti očistíme kartáčkem, vložíme do hrnce s osolenou vodou s vymačkaným citronem, necháme přejít varem a vodu slijeme. Hrnec vyčistíme a kosti vrátíme.",
+      "Cibule rozpůlíme a oloupaný zázvor nakrájíme na kostičky; obojí necháme v troubě zapéct dozlatova.",
+      "Ke kostem přidáme zapečenou cibuli a zázvor, zalijeme 7 l studené vody, vložíme hovězí maso a koření (nejlépe v plátýnku) a přivedeme k varu.",
+      "Stáhneme plamen a nezakrytý vývar necháme jen probublávat 3–4 hodiny (vodu nedoléváme). Průběžně sbíráme pěnu a přebytečný tuk.",
+      "Po 2 hodinách vyjmeme uvařené maso – lze ho nakrájet a použít do polévky (varianta phở bò chín).",
+      "Vývar scedíme a dochutíme hnědým cukrem, rybí omáčkou a solí – chuť má být výraznější, než čekáme, nudle ji zjemní.",
+      "Nudle ponoříme na 2 minuty do horké vody, propláchneme studenou vodou a před podáváním znovu krátce prohřejeme v horké vodě.",
+      "Do misek dáme nudle, jarní cibulku a co nejtenčí plátky syrové svíčkové (phở bò tái) a zalijeme vroucím vývarem.",
+      "U stolu si každý dochutí bylinkami, limetkou, chilli, rybí omáčkou či naloženým česnekem."
+    ],
+    "source": "http://www.hedvabnastezka.cz/klub-cestovatelu-praha/11072-jak-uvarit-vietnamskou-hovezi-polevku-pho/",
+    "image": "images/vietnamska-hovezi-polevka-pho-pho-bo.jpg"
+  },
+  {
+    "id": "zelnacka-s-klobasou",
+    "name": "Zelňačka s klobásou",
+    "category": "polevky",
+    "emoji": "🥬",
+    "desc": "Hustá zimní polévka z kysaného zelí s opečenou klobásou a paprikovou jíškou.",
+    "time": "45 min",
+    "servings": "4",
+    "ingredients": [
+      "sůl",
+      "máslo",
+      "2 ks brambory",
+      "1 ks cibule",
+      "kmín",
+      "2 l voda",
+      "2 ks klobása",
+      "bobkový list",
+      "hladká mouka",
+      "500 g kyselé zelí",
+      "mletá sladká paprika",
+      "8 kuliček celý černý pepř"
+    ],
+    "steps": [
+      "Na zelňačku s klobásou si nejprve připravíme veškerou zeleninu. Brambory oloupeme a nakrájíme na kostičky, cibuli oloupeme a nasekáme nadrobno. Kysané zelí podle potřeby překrájíme.",
+      "Nakrájené brambory dáme samostatně vařit s kmínem a uvaříme je doměkka. Překrájené zelí dáme vařit zvlášť bobkovým listem a celým pepřem. Zelí vaříme asi 30 minut. Zelí a brambory nevaříme nikdy pospolu, brambory by nám nezměkly, nebo by se vařily zbytečně dlouho.",
+      "Mezitím si na rozpuštěném másle (lze samozřejmě použít i jiný tuk - sádlo, olej) opečeme na kostičky nebo na kolečka nakrájenou klobásu. Přidáme cibuli, osmahneme a nakonec zaprášíme hladkou moukou a sladkou mletou paprikou. Za stálého míchání takto uděláme jíšku, která nám zelňačku zahustí.",
+      "K jíšce s klobásou a cibulí přelijeme celý obsah hrnce se zelím, samozřejmě i s vodou, ve které se zelí vařilo. Přidáme i uvařené brambory. Zelňačku s klobásou chvíli povaříme a máme hotovo. Podle potřeby polévku ještě dochutíme, můžeme zjemnit smetanou, ale takto připravená zelňačka je výborná i bez smetany.",
+      "Každou porci zelňačky v talíři nebo v hrnečku na polévku dozdobíme lžící zakysané smetany a přidáme i 2 - 3 kolečka klobásy zastudena.",
+      "Ještě lepší chuti docílíme, použijeme-li kromě mleté sladké papriky také papriku uzenou. A místo vody, ve které zelí vaříme, vývar z uzených kostí."
+    ],
+    "source": "http://recepty.vareni.cz/zelnacka-s-klobasou/",
+    "image": "images/zelnacka-s-klobasou.jpg"
+  },
+  {
     "id": "dusene-hovezi-maso-v-zelenine",
     "name": "Dušené hovězí maso v zelenině",
     "category": "papinak",
@@ -176,6 +444,32 @@
     ],
     "source": "https://www.rohlik.cz/chef/67-kure-z-jednoho-hrnce",
     "image": "images/kure-z-jednoho-hrnce.jpg"
+  },
+  {
+    "id": "kureci-spiz-s-uzenym",
+    "name": "Kuřecí špíz s uzeným",
+    "category": "trouba",
+    "emoji": "🍢",
+    "desc": "Jednoduchý a dobrý špíz z kuřecího a uzeného masa.",
+    "time": "45 min",
+    "ingredients": [
+      "200 g kuřecího masa",
+      "200 g uzeného masa",
+      "1 cibule",
+      "1 zelená paprika",
+      "1 lžička grilovacího koření",
+      "2 lžičky koření na gyros",
+      "1 lžička soli",
+      "špetka mletého černého pepře"
+    ],
+    "steps": [
+      "Kuřecí maso nakrájej na kousky, osol, opepři a posyp grilovacím kořením a kořením na gyros. Uzené maso nakrájej také na kousky, papriku na proužky a cibuli na měsíčky.",
+      "Na špejle napichuj střídavě kuřecí a uzené maso, cibuli a papriku. Hotové špízy ještě ze všech stran posyp kořením na gyros.",
+      "Špízy opeč ze všech stran (na pánvi, grilu nebo v troubě).",
+      "Podávej s chlebem nebo hranolky."
+    ],
+    "source": "https://www.vareni.cz/recepty/kureci-spiz-s-uzenym/",
+    "image": "images/kureci-spiz-s-uzenym.jpg"
   },
   {
     "id": "mini-quiche-s-cuketovou-krustou-4-zpusoby",
@@ -587,6 +881,41 @@
     "image": "images/opekane-cinske-ryzove-nudle.jpg"
   },
   {
+    "id": "pad-thai-s-kuretem-nebo-tofu",
+    "name": "Pad thai s kuřetem nebo tofu",
+    "category": "asie",
+    "emoji": "🍜",
+    "desc": "Jedno z nejoblíbenějších thajských jídel, které se z pouličních stánků rozšířilo do celého světa.",
+    "time": "30 min",
+    "servings": "2 porce",
+    "ingredients": [
+      "150 g plochých rýžových nudlí",
+      "hrst nesolených arašídů",
+      "2 vejce",
+      "1 kuřecí prso (nebo kostka tofu / 2 hrsti krevet)",
+      "4 lžíce rostlinného oleje",
+      "1 červená chilli paprička (nebo ¼ lžičky chilli vloček)",
+      "3 jarní cibulky",
+      "2 stroužky česneku",
+      "hrst čerstvého koriandru",
+      "limetka na podávání",
+      "špetka soli",
+      "Omáčka: 4 lžíce třtinového cukru (kokosového či palmového)",
+      "1 lžíce tamarindové pasty (nebo limetkové šťávy / rýžového octa)",
+      "3 lžíce rybí omáčky",
+      "3 lžíce sójové omáčky"
+    ],
+    "steps": [
+      "Nudle namoč na 30–60 minut do studené vody. Arašídy opraž nasucho ve woku do vůně, nech zchladnout a nasekej najemno.",
+      "Vejce rozšlehej se špetkou soli. Maso nebo tofu nakrájej na menší kousky. Chilli, jarní cibulku a oloupaný česnek nakrájej najemno. Suroviny na omáčku rozmíchej dohladka.",
+      "Ve woku rozpal olej na nejvyšší teplotu. Orestuj kuře nebo tofu, až zbělá a začne se opékat (krevety asi minutu, do růžova). Přidej chilli, cibulku a česnek a restuj 30 sekund dozlatova.",
+      "Odsuň vše stranou, přilij vejce a nech je částečně zatáhnout. Přidej okapané nudle a restuj další minutu.",
+      "Zalij omáčkou a prohřívej 30 sekund. Posyp arašídy, rozděl na talíře a podávej posypané koriandrem s klínkem limetky."
+    ],
+    "source": "https://fresh.iprima.cz/recepty/pad-thai-s-kuretem-nebo-tofu-thajske-nudle-ktere-nejde-nemilovat",
+    "image": "images/pad-thai-s-kuretem-nebo-tofu.jpg"
+  },
+  {
     "id": "sezamove-kure-jako-z-bistra",
     "name": "Sezamové kuře jako z bistra",
     "category": "asie",
@@ -725,45 +1054,6 @@
     "steps": [],
     "source": "http://www.youtube.com/watch?v=dl4NvSA3hRI",
     "image": "images/thajska-smazena-ryze-s-kuretem-a-bazalkou.jpg"
-  },
-  {
-    "id": "vietnamska-hovezi-polevka-pho-pho-bo",
-    "name": "Vietnamská hovězí polévka pho (phở bò)",
-    "category": "polevky",
-    "emoji": "🍜",
-    "desc": "Autentická vietnamská pho s vývarem táhnutým hodiny z morkových kostí, voňavým kořením, rýžovými nudlemi a tenkými plátky svíčkové.",
-    "time": "4–5 hodin",
-    "servings": "cca 5 l vývaru",
-    "ingredients": [
-      "3–4 kg hovězích morkových kostí (+ případně 500 g ocasních kostí s masem)",
-      "alespoň 500 g hovězího zadního masa na vývar",
-      "400 g hovězí svíčkové (na variantu phở bò tái)",
-      "3–4 celé cibule",
-      "250 g čerstvého zázvoru",
-      "několik jarních cibulek",
-      "1–2 celé sušené kardamomy (thảo quả)",
-      "5–7 hvězdiček badyánu",
-      "12–20 cm celé skořice",
-      "10–15 hřebíčků",
-      "hnědý cukr ve větších krystalech, sůl, rybí omáčka",
-      "ploché rýžové nudle (bánh phở)",
-      "čerstvé bylinky: vietnamská bazalka, perilla, máčka (ngò gai)",
-      "k podávání: limetka, čerstvé chilli, chilli omáčka, naložený česnek",
-      "7 l studené vody"
-    ],
-    "steps": [
-      "Kosti očistíme kartáčkem, vložíme do hrnce s osolenou vodou s vymačkaným citronem, necháme přejít varem a vodu slijeme. Hrnec vyčistíme a kosti vrátíme.",
-      "Cibule rozpůlíme a oloupaný zázvor nakrájíme na kostičky; obojí necháme v troubě zapéct dozlatova.",
-      "Ke kostem přidáme zapečenou cibuli a zázvor, zalijeme 7 l studené vody, vložíme hovězí maso a koření (nejlépe v plátýnku) a přivedeme k varu.",
-      "Stáhneme plamen a nezakrytý vývar necháme jen probublávat 3–4 hodiny (vodu nedoléváme). Průběžně sbíráme pěnu a přebytečný tuk.",
-      "Po 2 hodinách vyjmeme uvařené maso – lze ho nakrájet a použít do polévky (varianta phở bò chín).",
-      "Vývar scedíme a dochutíme hnědým cukrem, rybí omáčkou a solí – chuť má být výraznější, než čekáme, nudle ji zjemní.",
-      "Nudle ponoříme na 2 minuty do horké vody, propláchneme studenou vodou a před podáváním znovu krátce prohřejeme v horké vodě.",
-      "Do misek dáme nudle, jarní cibulku a co nejtenčí plátky syrové svíčkové (phở bò tái) a zalijeme vroucím vývarem.",
-      "U stolu si každý dochutí bylinkami, limetkou, chilli, rybí omáčkou či naloženým česnekem."
-    ],
-    "source": "http://www.hedvabnastezka.cz/klub-cestovatelu-praha/11072-jak-uvarit-vietnamskou-hovezi-polevku-pho/",
-    "image": "images/vietnamska-hovezi-polevka-pho-pho-bo.jpg"
   },
   {
     "id": "16-paradnich-receptu-na-oblibene-spagety",
@@ -1098,108 +1388,6 @@
     "image": "images/bramborovy-salat-babicky-eli.jpg"
   },
   {
-    "id": "francouzska-cibulacka",
-    "name": "Francouzská cibulačka",
-    "category": "polevky",
-    "emoji": "🧅",
-    "desc": "Sladce karamelizovaná cibule ve vývaru s vínem a zapečenými sýrovými toustíky.",
-    "time": "80 min",
-    "servings": "4",
-    "ingredients": [
-      "600 g cibule",
-      "2 lžíce oleje",
-      "1 vrchovatá lžíce másla",
-      "2 lžičky cukru",
-      "1 l domácího kuřecího nebo hovězího vývaru",
-      "150 ml suchého bílého vína",
-      "1 lžíce hladké mouky",
-      "cca 1 lžička soli",
-      "4 krajíčky světlé bagety nebo veky (případně 2 rohlíky)",
-      "50 g strouhaného sýra"
-    ],
-    "steps": [
-      "Cibuli oloupejte, překrojte napůl a nakrájejte na půl centimetru silné plátky.",
-      "Ve větším hrnci rozehřejte máslo s olejem, vsypte polovinu cibule a intenzivně ji opékejte, až místy zezlátne. Když hrozí připálení, podlijte pár lžícemi vody, rozpusťte přípečky a nechte vodu odpařit; opakujte 2–3x, až má cibule rovnoměrnou zlatou barvu.",
-      "Přidejte zbylou cibuli a za stálého míchání ji nechte změknout. Nakonec přidejte cukr a minutu míchejte.",
-      "Cibuli poprašte moukou, krátce promíchejte, přilijte třetinu vývaru a důkladně zamíchejte.",
-      "Přilijte zbytek vývaru a víno, osolte, přiveďte k varu a pod pokličkou zvolna vařte 20 minut, občas promíchejte.",
-      "Mezitím rozehřejte gril nebo troubu na 200 °C. Krajíčky bagety posypte sýrem a zapečte cca 5 minut, až se sýr rozteče.",
-      "Polévku dochuťte, rozdělte do talířů a ozdobte zapečenými toustíky se sýrem."
-    ],
-    "source": "https://www.kucharkaprodceru.cz/francouzska-cibulacka/",
-    "image": "images/francouzska-cibulacka.jpg"
-  },
-  {
-    "id": "francouzska-cibulova-polevka-french-onion-soup",
-    "name": "Francouzská cibulová polévka (French Onion Soup)",
-    "category": "polevky",
-    "emoji": "🧀",
-    "desc": "Dvě hodiny pomalu karamelizovaná cibule s červeným vínem, gruyèrem a křupavým toustem.",
-    "time": "190 min",
-    "servings": "6",
-    "ingredients": [
-      "115 g nesoleného másla",
-      "4 velké sladké cibule, nakrájené na tenké plátky",
-      "4 stroužky česneku, na tenké plátky",
-      "4 sušené bobkové listy",
-      "8 snítek čerstvého tymiánu",
-      "1 lžička soli",
-      "čerstvě mletý černý pepř",
-      "240 ml suchého červeného vína (např. chianti)",
-      "3 vrchovaté lžíce hladké mouky",
-      "2 l hovězího vývaru",
-      "2 lžíce balzamikového octa",
-      "6 plátků francouzské bagety",
-      "6 lžic olivového oleje",
-      "115 g nastrouhaného sýra gruyère"
-    ],
-    "steps": [
-      "Ve velkém hrnci se silným dnem rozpusťte na mírném ohni máslo. Přidejte cibuli a česnek a promíchejte, aby se obalily máslem. Přidejte bobkový list, tymián, sůl a pepř. Stáhněte plamen na minimum a nechte cibuli asi 2 hodiny karamelizovat; každých zhruba 5 minut promíchejte, aby se nepřipálila. Hotová je, když má středně zlatohnědou barvu.",
-      "Přilijte víno, promíchejte a vařte dalších 20–30 minut za občasného míchání, dokud se tekutina nezredukuje asi o tři čtvrtiny. Vyjměte bobkový list a tymián.",
-      "Směs zaprašte moukou, promíchejte a za občasného míchání vařte 5 minut, aby se ztratila syrová chuť mouky. Postupně přilévejte vývar a míchejte, aby nevznikly hrudky. Přiveďte k mírnému varu a vařte 10 minut. Vmíchejte balzamikový ocet, ochutnejte a dochuťte.",
-      "Zapněte gril v troubě na nejnižší stupeň. Plátky bagety potřete z obou stran olivovým olejem, rozložte na plech a opečte v troubě, v polovině otočte.",
-      "Plech vyndejte a gril přepněte na maximum. Na plátky chleba rovnoměrně rozdělte sýr a zapečte dozlatova. Podávejte s polévkou – toust položte navrch, nebo dejte zvlášť, aby zůstal křupavý."
-    ],
-    "source": "https://thissillygirlskitchen.com/french-onion-soup/",
-    "image": "images/francouzska-cibulova-polevka-french-onion-soup.jpg"
-  },
-  {
-    "id": "gratinovana-francouzska-cibulacka",
-    "name": "Gratinovaná francouzská cibulačka",
-    "category": "polevky",
-    "emoji": "🥖",
-    "desc": "Lahodná cibulová polévka s vínem a bylinkami, zapečená pod zlatavou sýrovou krustou.",
-    "time": "75 min",
-    "servings": "6",
-    "ingredients": [
-      "sůl",
-      "2 l vývar",
-      "30 g máslo",
-      "6 ks cibule",
-      "1 lžička rozmarýn",
-      "ementál",
-      "1 lžička petržel",
-      "1 ks bageta",
-      "4 lístky bobkový list",
-      "2 - 3 lžíce hladká mouka",
-      "1 lžíce drcený tymián",
-      "2 - 3 dl bílé suché víno",
-      "mletý černý pepř",
-      "sýr comté"
-    ],
-    "steps": [
-      "Cibule nakrájíme třeba na kroužky a necháme na osoleném másle restovat v hlubším velkém hrnci za občasného míchání, dokud nebudou chytat zlatavou barvu.",
-      "Přidáme 2 - 3 dl suchého bílého vína, které necháme téměř vyvařit (asi 15 - 20 minut) a občas nahlédneme.",
-      "Poprášíme moukou, tím se nám vytvoří jíška, přidáme vývar a zamícháme. Vývar může být jak hovězí, tak drůbeží. Do hrnce vložíme svazek bylinek (rozmarýn, tymián, petržel) svázaných k sobě, ovšem pokud nemáme čerstvé, přidáme klasicky sušený drhnutý tymián a rozmarýn.",
-      "Přivedeme k varu, poté ztlumíme a vše necháme na mírném plameni probublávat asi 20 - 30 minut spolu s bobkovým listem, aby se nám chutě a aroma bylinek krásně propojilo. Ve finále polévku dosolíme a dopepříme.",
-      "Mezitím bagetu nakrájíme kolečka a osmahneme na másle dozlatova.",
-      "Jakmile je polévka hotová, nalijeme ji do misek, přidáme pár kusů opečené bagety a posypeme nastrouhaným sýrem (nejlépe comté nebo ementál).",
-      "Misky s francouzskou cibulačkou vložíme do trouby pod gril rozpálený na 200 °C, dokud se nevytvoří ze sýra zlatavá krusta. Jakmile se tak stane, můžeme si pogratulovat, máme hotovo a podáváme. Gratinovanou francouzskou cibulačku ihned podáváme."
-    ],
-    "source": "http://recepty.vareni.cz/gratinovana-francouzska-cibulacka/",
-    "image": "images/gratinovana-francouzska-cibulacka.jpg"
-  },
-  {
     "id": "koprova-omacka-s-vajickem",
     "name": "Koprová omáčka s vajíčkem",
     "category": "ostatni",
@@ -1228,70 +1416,6 @@
     ],
     "source": "http://recepty.vareni.cz/koprova-omacka-1/",
     "image": "images/koprova-omacka-s-vajickem.jpg"
-  },
-  {
-    "id": "kulajda-od-zdenka-pohlreicha",
-    "name": "Kulajda od Zdeňka Pohlreicha",
-    "category": "polevky",
-    "emoji": "🥣",
-    "desc": "Smetanová kulajda podle šéfa – houby, brambory, kopr a ztracené vejce.",
-    "time": "50 min",
-    "servings": "4",
-    "ingredients": [
-      "100 g sušených hub",
-      "1 l hovězího vývaru",
-      "50 g másla",
-      "100 g hladké mouky",
-      "150 g brambor",
-      "4 vejce",
-      "50 g kopru",
-      "2 lžíce octa",
-      "300 ml mléka",
-      "100 ml smetany",
-      "sůl",
-      "pepř"
-    ],
-    "steps": [
-      "Z rozpuštěného másla a mouky připravte světlou jíšku.",
-      "Jíšku zalijte vývarem, osolte, opepřete a přiveďte k varu.",
-      "Přidejte nakrájené brambory a houby a vařte asi 40 minut.",
-      "Vlijte mléko se smetanou a polévku dochuťte.",
-      "V kastrolu s vroucí vodou a octem připravte ztracená vejce – vejce vyklepněte do naběračky a pomalu vpusťte do vody, vařte maximálně 2–3 minuty.",
-      "Na talíř položte ztracené vejce, zalijte polévkou s koprem a ihned podávejte."
-    ],
-    "source": "https://www.igurmet.cz/recepty/polevky/smetanove/kulajda-5351/",
-    "image": "images/kulajda-od-zdenka-pohlreicha.jpg"
-  },
-  {
-    "id": "kulajda-se-ztracenym-vejcem-podle-sefa-prima-fresh",
-    "name": "Kulajda se ztraceným vejcem podle šéfa (Prima Fresh)",
-    "category": "polevky",
-    "emoji": "🥚",
-    "desc": "Krémová kulajda s restovanými houbami, koprem a dokonalým ztraceným vejcem.",
-    "time": "60 min",
-    "servings": "4",
-    "ingredients": [
-      "1 l kuřecího vývaru",
-      "200 g hub (čerstvá nebo sušená lesní směs)",
-      "3 brambory",
-      "250 ml smetany ke šlehání",
-      "3 lžíce hladké mouky",
-      "3 lžíce másla",
-      "cca 4 lžíce octa do polévky + 200 ml na vaření vajec",
-      "menší svazek kopru",
-      "1 vejce na osobu",
-      "sůl a pepř",
-      "trocha cukru (dle potřeby)"
-    ],
-    "steps": [
-      "V rendlíku rozpusťte máslo, přisypte mouku a orestujte jíšku. Zalijte vývarem, přidejte drobně nakrájené brambory, osolte, opepřete a rozmíchejte dohladka.",
-      "Houby orestujte na másle dozlatova a vlijte do polévky. Vařte, dokud houby i brambory nezměknou.",
-      "Přidejte smetanu a ocet, znovu přiveďte k varu, případně dochuťte trochou cukru. Odstavte a vmíchejte nasekaný kopr.",
-      "V menším rendlíku přiveďte vodu s octem k varu (nesolte). Vejce rozklepněte jednotlivě do misek, ve vodě vytvořte vír a do jeho středu vejce vlijte – bílek obalí žloutek. Jakmile bílek ztuhne, odstavte a nechte 2–3 minuty dojít.",
-      "Polévku podávejte se ztraceným vejcem."
-    ],
-    "source": "http://fresh.iprima.cz/recepty/video-kulajda-se-ztracenym-vejcem-podle-sefa",
-    "image": "images/kulajda-se-ztracenym-vejcem-podle-sefa-prima-fresh.jpg"
   },
   {
     "id": "kureci-nudlicky-na-kari-a-cibuli",
@@ -1417,36 +1541,6 @@
     ],
     "source": "https://recepty.vareni.cz/nemecky-bramborovy-salat-s-cibuli/",
     "image": "images/nemecky-bramborovy-salat-s-cibuli.jpg"
-  },
-  {
-    "id": "prava-jihoceska-kulajda",
-    "name": "Pravá jihočeská kulajda",
-    "category": "polevky",
-    "emoji": "🌿",
-    "desc": "Chlouba jihočeské kuchyně – houby, brambory, kysaná smetana, kopr a poloměkké vejce.",
-    "time": "35 min",
-    "servings": "2",
-    "ingredients": [
-      "4 ks vejce",
-      "2 lžíce ocet",
-      "6 ks brambory",
-      "kmín",
-      "2 ks bobkový list",
-      "nové koření",
-      "1 hrnek kysaná smetana",
-      "hladká mouka",
-      "1 hrst houby čerstvé",
-      "kopr sekaný"
-    ],
-    "steps": [
-      "Houby očistíme a nakrájíme je na větší kousky.",
-      "Syrové oloupané brambory nakrájíme na kostičky a s houbami povaříme v osolené vodě, do které jsme přidali koření - kmín, nové koření, pepř, bobkový list.",
-      "Když jsou brambory měkké, přidáme smetanu s rozkvedlanou moukou, promícháme a krátce povaříme. Podle chuti kulajdu osolíme, okyselíme octem a přidáme nasekaný kopr.",
-      "Rozklepneme čerstvá vejce a zlehka je upustíme do polévky. Tři minuty mírným varem povaříme a dalších 5 minut necháme vejce dojít mimo tepelný zdroj. Žloutky vajec musí být při podávání pravé jihočeské kulajdy poloměkké.",
-      "Pravou jihočeskou kulajdu podáváme horkou a nejlépe chutná s čerstvě upečeným domácím chlebem."
-    ],
-    "source": "http://recepty.vareni.cz/prava-jihoceska-kulajda/",
-    "image": "images/prava-jihoceska-kulajda.jpg"
   },
   {
     "id": "segedinsky-gulas-po-madarsku",
@@ -1700,38 +1794,5 @@
     ],
     "source": "https://www.rohlik.cz/chef/56-veprovy-karbanatek-se-syrem-feta",
     "image": "images/veprovy-karbanatek-se-syrem-feta-roman-vanek.jpg"
-  },
-  {
-    "id": "zelnacka-s-klobasou",
-    "name": "Zelňačka s klobásou",
-    "category": "polevky",
-    "emoji": "🥬",
-    "desc": "Hustá zimní polévka z kysaného zelí s opečenou klobásou a paprikovou jíškou.",
-    "time": "45 min",
-    "servings": "4",
-    "ingredients": [
-      "sůl",
-      "máslo",
-      "2 ks brambory",
-      "1 ks cibule",
-      "kmín",
-      "2 l voda",
-      "2 ks klobása",
-      "bobkový list",
-      "hladká mouka",
-      "500 g kyselé zelí",
-      "mletá sladká paprika",
-      "8 kuliček celý černý pepř"
-    ],
-    "steps": [
-      "Na zelňačku s klobásou si nejprve připravíme veškerou zeleninu. Brambory oloupeme a nakrájíme na kostičky, cibuli oloupeme a nasekáme nadrobno. Kysané zelí podle potřeby překrájíme.",
-      "Nakrájené brambory dáme samostatně vařit s kmínem a uvaříme je doměkka. Překrájené zelí dáme vařit zvlášť bobkovým listem a celým pepřem. Zelí vaříme asi 30 minut. Zelí a brambory nevaříme nikdy pospolu, brambory by nám nezměkly, nebo by se vařily zbytečně dlouho.",
-      "Mezitím si na rozpuštěném másle (lze samozřejmě použít i jiný tuk - sádlo, olej) opečeme na kostičky nebo na kolečka nakrájenou klobásu. Přidáme cibuli, osmahneme a nakonec zaprášíme hladkou moukou a sladkou mletou paprikou. Za stálého míchání takto uděláme jíšku, která nám zelňačku zahustí.",
-      "K jíšce s klobásou a cibulí přelijeme celý obsah hrnce se zelím, samozřejmě i s vodou, ve které se zelí vařilo. Přidáme i uvařené brambory. Zelňačku s klobásou chvíli povaříme a máme hotovo. Podle potřeby polévku ještě dochutíme, můžeme zjemnit smetanou, ale takto připravená zelňačka je výborná i bez smetany.",
-      "Každou porci zelňačky v talíři nebo v hrnečku na polévku dozdobíme lžící zakysané smetany a přidáme i 2 - 3 kolečka klobásy zastudena.",
-      "Ještě lepší chuti docílíme, použijeme-li kromě mleté sladké papriky také papriku uzenou. A místo vody, ve které zelí vaříme, vývar z uzených kostí."
-    ],
-    "source": "http://recepty.vareni.cz/zelnacka-s-klobasou/",
-    "image": "images/zelnacka-s-klobasou.jpg"
   }
 ]
