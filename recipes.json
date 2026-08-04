@@ -1359,33 +1359,6 @@
     "image": "images/kvetakove-placicky-se-syrem.jpg"
   },
   {
-    "id": "masovo-houbova-omacka",
-    "name": "Masovo-houbová omáčka",
-    "category": "ostatni",
-    "emoji": "🍄",
-    "desc": "Rychlá omáčka z mletého masa a hub s kečupem a sójovkou, skvělá k těstovinám.",
-    "time": "45 min",
-    "servings": "4",
-    "ingredients": [
-      "olej",
-      "sůl",
-      "1 ks cibule",
-      "1 ks kečup",
-      "250 g houby",
-      "sójová omáčka",
-      "250 g hovězí maso",
-      "250 g vepřové maso",
-      "mletý černý pepř"
-    ],
-    "steps": [
-      "Vepřové i hovězí maso pomeleme na masovém strojku. Houby můžeme použít čerstvé nebo mražené.",
-      "V kastrolku si rozpálíme olej a dáme na drobno pokrájenou cibulku. Až je cibulka dozlatova, dáme na ni pomleté maso a pokrájené houby a osmažíme. Podlijeme troškou vody nebo vývarem a vaříme doměkka. Potom přidáme jeden celý menší sladký kečup, trochu sójové omáčky, sůl a pepř.",
-      "Masovo-houbovou omáčku podáváme s kolínky nebo jinými těstovinami. Může být i rýže."
-    ],
-    "source": "http://recepty.vareni.cz/masovo-houbova-omacka/",
-    "image": "images/masovo-houbova-omacka.jpg"
-  },
-  {
     "id": "nejlepsi-jatra",
     "name": "Nejlepší játra",
     "category": "ostatni",
