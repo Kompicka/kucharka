@@ -1574,16 +1574,6 @@
     "image": "images/prava-jihoceska-kulajda.jpg"
   },
   {
-    "id": "ryzova-jidla-bezmasa",
-    "name": "Rýžová jídla – bezmasá",
-    "category": "ostatni",
-    "emoji": "🍚",
-    "desc": "Kategorie bezmasých receptů z rýže – rizota, krokety a další vegetariánské pokrmy na jednom místě.",
-    "ingredients": [],
-    "steps": [],
-    "source": "http://recepty.chytrazena.cz/bezmasa-jidla/ryzova-jidla/"
-  },
-  {
     "id": "segedinsky-gulas-po-madarsku",
     "name": "Segedínský guláš po maďarsku",
     "category": "ostatni",
