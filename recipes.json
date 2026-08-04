@@ -339,6 +339,40 @@
     "image": "images/dusene-hovezi-maso-v-zelenine.jpg"
   },
   {
+    "id": "hovezi-platky-z-krku-na-slanine-a-cibulich",
+    "name": "Hovězí plátky z krku na slanině a cibulích v papiňáku",
+    "category": "papinak",
+    "emoji": "🥩",
+    "desc": "Měkoučké hovězí plátky ze slaniny a cibule, dochucené hořčicovo-koprovou omáčkou.",
+    "time": "60 min",
+    "servings": "2 porce",
+    "ingredients": [
+      "4 plátky hovězího krku (2 cm silné)",
+      "1 lžička oleje",
+      "150 g uzené slaniny (nebo sádla)",
+      "200 g cibule",
+      "5 stroužků česneku",
+      "mletý černý pepř",
+      "sůl",
+      "300 ml vody",
+      "Omáčka: 50 ml studené vody",
+      "1 lžička solamylu",
+      "1 lžička plnotučné hořčice",
+      "1 lžíce čerstvého kopru"
+    ],
+    "steps": [
+      "Okraje masa nařízni, plátky z obou stran osol a opepři. Slaninu a cibuli nakrájej najemno, česnek na tenké plátky.",
+      "V papiňáku rozehřej olej, přidej slaninu a cibuli. Restuj, až cibule zezlátne, pak krátce orestuj i česnek.",
+      "Směs odsuň stranou, do hrnce narovnej plátky masa a opeč z obou stran.",
+      "Přilij horkou vodu, lehce dochuť, promíchej a uzavři tlakovou poklici. Jakmile ventil syčí, stáhni na minimum a vař 35 minut.",
+      "Odstav a nech 5 minut odpočinout. Maso vyndej a udržuj teplé. Výpek lehce promixuj ponorným mixérem.",
+      "Vrať hrnec na oheň. Do vroucího základu přidej hořčici, kopr a solamyl rozmíchaný ve studené vodě. Povař 2 minuty.",
+      "Podávej s bramborovou kaší s cibulkou a slaninou."
+    ],
+    "source": "https://www.toprecepty.cz/recept/69124-hovezi-platky-z-krku-na-slanine-a-cibulich-v-papinaku/",
+    "image": "images/hovezi-platky-z-krku-na-slanine-a-cibulich.jpg"
+  },
+  {
     "id": "hovezi-zebra-z-papinaku-instant-pot",
     "name": "Hovězí žebra z papiňáku (Instant Pot)",
     "category": "papinak",
