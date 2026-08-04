@@ -166,6 +166,44 @@
     "image": "images/kulajda-se-ztracenym-vejcem-podle-sefa-prima-fresh.jpg"
   },
   {
+    "id": "polevka-z-maslovych-fazoli",
+    "name": "Polévka z máslových fazolí",
+    "category": "polevky",
+    "emoji": "🍲",
+    "desc": "Sytá fazolová polévka s klobásou, slaninou a smetanou — hravě nahradí plnohodnotný oběd.",
+    "time": "60 min + namočení fazolí přes noc",
+    "servings": "6 porcí",
+    "ingredients": [
+      "300 g obřích máslových fazolí",
+      "1,5 l vody",
+      "50 g slaniny",
+      "2 lžíce sádla",
+      "1 větší cibule",
+      "3 lžíce hladké mouky",
+      "½ lžičky uzené papriky",
+      "3 bobkové listy",
+      "4 kuličky nového koření",
+      "sůl a pepř",
+      "200 g brambor",
+      "200 g česnekové klobásy",
+      "50 ml smetany 33%",
+      "špetka saturejky",
+      "1–2 snítky čerstvé majoránky",
+      "3–4 stroužky česneku"
+    ],
+    "steps": [
+      "Fazole namoč přes noc do 1,5 l vody.",
+      "Přidej bobkový list a nové koření a uvař do poloměkka (v tlakovém/multifunkčním hrnci ~8 minut, v klasickém hrnci déle).",
+      "Slaninu vyškvař, přidej sádlo, cibuli a mouku a orestuj světlou jíšku. Zaprás uzenou paprikou.",
+      "Jíšku zalij studenou vodou, rozmíchej a vlij k fazolím. Osol a opepři.",
+      "Přidej brambory nakrájené na kostky a vař, dokud nezměknou.",
+      "Přidej klobásu na kolečka, smetanu, saturejku, majoránku a prolisovaný česnek. Krátce provař.",
+      "Podávej s čerstvým chlebem."
+    ],
+    "source": "https://www.toprecepty.cz/recept/76535-polevka-z-maslovych-fazoli/",
+    "image": "images/polevka-z-maslovych-fazoli.jpg"
+  },
+  {
     "id": "prava-jihoceska-kulajda",
     "name": "Pravá jihočeská kulajda",
     "category": "polevky",
