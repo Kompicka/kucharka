@@ -681,7 +681,7 @@
     "steps": [
       "Kuřecí maso nakrájej na kousky, osol, opepři a posyp grilovacím kořením a kořením na gyros. Uzené maso nakrájej také na kousky, papriku na proužky a cibuli na měsíčky.",
       "Na špejle napichuj střídavě kuřecí a uzené maso, cibuli a papriku. Hotové špízy ještě ze všech stran posyp kořením na gyros.",
-      "Špízy opeč ze všech stran (na pánvi, grilu nebo v troubě).",
+      "Špízy opeč ze všech stran – v troubě na 200 °C 25 až 30 minut (v polovině je otoč), nebo na pánvi či grilu.",
       "Podávej s chlebem nebo hranolky."
     ],
     "source": "https://www.vareni.cz/recepty/kureci-spiz-s-uzenym/",
@@ -1724,6 +1724,30 @@
     ],
     "source": "https://recepty.vareni.cz/nemecky-bramborovy-salat-s-cibuli/",
     "image": "images/nemecky-bramborovy-salat-s-cibuli.jpg"
+  },
+  {
+    "id": "ryze-dusena-na-cibulce",
+    "name": "Rýže dušená na cibulce",
+    "category": "ostatni",
+    "emoji": "🍚",
+    "desc": "Jednoduchá rýže na pánvi – cibulka najemno po celé ploše, na ni suchá rýže, zalít vodou a nemíchat. Sype se a voní po cibulce.",
+    "time": "30 min",
+    "servings": "2 porce",
+    "ingredients": [
+      "1 hrnek dlouhozrnné rýže",
+      "1 cibule",
+      "2 lžíce oleje nebo másla",
+      "2 hrnky vody nebo vývaru",
+      "sůl"
+    ],
+    "steps": [
+      "Na pánvi rozehřej tuk. Cibuli nakrájej najemno, rozprostři po celé ploše pánve a smaž doskla, asi 5 minut – nesmí zhnědnout.",
+      "Na cibulku nasyp suchou rýži (propláchnutou a okapanou nebo rovnou ze sáčku), rozprostři ji v rovnoměrné vrstvě a 1–2 minuty orestuj, ať se zrnka obalí tukem a zesklovatí.",
+      "Zalij dvojnásobkem vody nebo vývaru, osol a přiveď k varu.",
+      "Stáhni na nejmenší plamen, přiklop pokličkou a 12–15 minut duste, dokud se voda nevsákne. Během vaření nemíchej – cibulka má zůstat vespod a rýže se dusí v páře.",
+      "Sundej z ohně a nech ještě 10 minut odpočinout pod pokličkou. Pak rýži nadzvedni vidličkou a podávej jako přílohu k masu nebo samotnou."
+    ],
+    "image": "images/ryze-dusena-na-cibulce.jpg"
   },
   {
     "id": "segedinsky-gulas-po-madarsku",
